@@ -1,0 +1,22 @@
+{
+	"schemaVersion": 1,
+	"id": "lightningprevention",
+	"version": "${version}",
+	"name": "Lightning Prevention",
+	"description": "Adds a blacklist for lightning strike base blocks and a whitelist for lightning fire base blocks.",
+	"authors": [
+		"haykam821"
+	],
+	"contact": {
+		"homepage": "https://github.com/haykam821/Lightning-Prevention#readme",
+		"issues": "https://github.com/haykam821/Lightning-Prevention/issues"
+	},
+	"mixins": [
+		"lightningprevention.mixin.json"
+	],
+	"license": "MIT",
+	"icon": "assets/lightningprevention/icon.png",
+	"depends": {
+		"fabricloader": ">=0.4.0"
+	}
+}

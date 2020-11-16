@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "io.github.haykam821.lightningprevention.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+		"LightningEntityMixin",
+		"ServerWorldMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
